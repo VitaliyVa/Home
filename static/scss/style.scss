@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
+@import 'header';
+@import 'about';
+@import 'form_cons_style';
+
+body {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    transition: all .2s;
+}
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+
+}
+.main-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.main_wrapper {
+    overflow: hidden;
+}
+.scroll_all {
+    text-decoration: none;
+}
